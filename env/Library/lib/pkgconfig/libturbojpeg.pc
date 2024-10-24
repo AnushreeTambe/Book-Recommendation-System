@@ -1,0 +1,10 @@
+prefix=C:/Users/Siddhi/Desktop/Book-Recommendation-System/env/Library
+exec_prefix=C:/Users/Siddhi/Desktop/Book-Recommendation-System/env/Library
+libdir=C:/Users/Siddhi/Desktop/Book-Recommendation-System/env/Library/lib
+includedir=C:/Users/Siddhi/Desktop/Book-Recommendation-System/env/Library/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 3.0.0
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}
